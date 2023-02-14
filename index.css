@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20rem;
+}
+nav{
+    background-color: rgb(34, 8, 8);
+    text-align: center;
+    padding: .5rem;
+    font-size: xx-large;
+    color: rgb(133, 30, 30);
+}
+.first{
+    
+    margin: auto;
+    text-align: center;
+    padding: 10rem;
+    background: linear-gradient(rgb(231, 69, 69),rgb(49, 31, 31));
+}
+.inside{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    
+}
+@media screen and (max-width:700px) {
+    .f1{
+        margin-left: -2rem;
+    }
+    .second{
+        margin-left: -3rem;
+    }
+    .f3{
+        margin-left: -1rem;
+    }
+    h4{
+        margin-left: -1rem;
+    }
+}
+.first h2{
+   color: rgb(121, 8, 8);
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px;
+}
+.first h4{
+   color: rgb(34, 2, 2);
+}
+.crsl{
+    width: 98%;
+    margin: auto;
+    background-color: black;
+}
+.crs{
+    height: 40rem;
+    
+}
+.carousel-inner{
+    width: 60%;
+    margin: auto;
+}
+.feature-card-3{
+    height: 20rem;
+    padding: 0;
+}
+.feature-card-3 img{
+    height: 100%;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: rgb(121, 8, 8) ;
+}
